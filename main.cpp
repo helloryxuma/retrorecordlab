@@ -8,18 +8,6 @@ void integer_power() {
     (void)power;
 }
 
-void fibonacci_sum() {
-    int f0 = 0, f1 = 1;
-    int acc = 0;
-    for (int i = 0; i < 10; ++i) {
-        acc += f0;
-        int next = f0 + f1;
-        f0 = f1;
-        f1 = next;
-    }
-    (void)acc;
-}
-
 void cube_value() {
     int x = 7;
     int cube = x * x * x;
@@ -35,17 +23,18 @@ void sum_odds() {
 }
 
 extern "C" int hidden_kite();
-extern "C" void misty_beacon();
-extern "C" void ivory_kite();
-extern "C" void misty_signal();
+extern "C" void placid_bridge();
+extern "C" void calm_fjord();
+extern "C" void clever_prism();
+extern "C" void serene_grove();
 
 int main() {
     integer_power();
-    fibonacci_sum();
     cube_value();
     sum_odds();
-    misty_beacon();
-    ivory_kite();
-    misty_signal();
+    placid_bridge();
+    calm_fjord();
+    clever_prism();
+    serene_grove();
     return hidden_kite();
 }
